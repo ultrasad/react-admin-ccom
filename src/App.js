@@ -19,7 +19,7 @@ const App = () => (
   <Admin dashboard={Dashboard} authProvider={authProvider} dataProvider={dataProvider}>
       <Resource options={{ label: 'Posts' }} name="posts" list={PostList} edit={PostEdit} create={PostCreate} icon={PostIcon} />
       {/*<Resource options={{ label: 'User Groups' }} name="users" list={UserList} icon={UserIcon} />*/}
-      <Resource options={{ label: 'User Groups' }} name="user/Super99" list={UserList} icon={UserIcon} />
+      <Resource options={{ label: 'User Groups' }} name="user/Super1" list={UserList} icon={UserIcon} />
   </Admin>
 );
 
