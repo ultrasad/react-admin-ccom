@@ -2,12 +2,13 @@
 import React from 'react';
 import { List, Datagrid, TextField } from 'react-admin';
 
-export const UserList = props => (
+export const MessageList = props => (
     <List actions={null} {...props}>
         <Datagrid>
             <TextField source="id" label="ID" />
-            <TextField source="username" label="Username" />
-            <TextField source="groups.group_name" label="Group Name" />
+            <TextField source="message" label="Message" />
+            <TextField source="priority" label="Priority" />
+            <TextField source="created_by" label="Created By" />
         </Datagrid>
     </List>
 );

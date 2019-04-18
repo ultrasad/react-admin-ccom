@@ -5,7 +5,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardHeader from '@material-ui/core/CardHeader';
 
 export default () => (
-    <Card>
+    <Card title="test">
         <CardHeader title="Welcome to the administration" />
         <CardContent>ระบบจัดการข้อความ Broadcast  บน CCOM</CardContent>
     </Card>
